@@ -18,6 +18,9 @@ MVVM + FLUX reactive facade ViewKit for feed based app development. Eliminates M
    * UICollectionViewCell
    * UIView
    * UIViewController - Domained event handling for complex cell
+ * Embedded pagination events 
+   * `CZFeedListViewEvent` - `pullToRefresh`/`loadMore`
+
  
 #### Unidirectional Data Flow
  * **Dispatcher:** Propagates domained events
@@ -46,4 +49,4 @@ MVVM + FLUX reactive facade ViewKit for feed based app development. Eliminates M
 ### Instagram Demo - [Github](https://github.com/showt1me/CZInstagram)
 Implemented on top of **ReactiveListViewKit**
 
-<img src="./Documents/CZInstagram.gif">
+
