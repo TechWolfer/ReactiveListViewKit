@@ -6,6 +6,7 @@ MVVM + FLUX reactive facade ViewKit for feed based app development. Eliminates M
 #### Massive View Controller Terminator
  * No more UICollectionViewDataSource/UICollectionViewDelegate overhead
  * No more long if statement to manage model/cell mapping, event handling
+ * No more delegation - event driven, loosely coupled pattern
  * FLUX one way data flow solves core problems of MVC: 
    * Central Mediator
    * Event Propagration
@@ -40,7 +41,7 @@ MVVM + FLUX reactive facade ViewKit for feed based app development. Eliminates M
   * UICollectionView CellState diff algorithm on top of Longest Common Subsequence
   * Perform Insert/Delete/Move sections/cells based on internal models diff algorithm
 
-#### Immutable/Predictable
+#### Declarative/Immutable/Predictable
   * Efficient ViewModel tree diff algorithm on top of Longest Common Subsequence
 
   <img src="./Documents/FLUX.png">
