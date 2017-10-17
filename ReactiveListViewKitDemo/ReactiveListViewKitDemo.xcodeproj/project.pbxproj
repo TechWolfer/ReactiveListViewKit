@@ -33,6 +33,7 @@
 		2ADA7C9C1F95D82500B8679C /* FeedCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADA7C991F95D82500B8679C /* FeedCellView.xib */; };
 		2ADA7C9D1F95D82500B8679C /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */; };
 		2ADA7C9F1F95D87100B8679C /* FeedListEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */; };
+		2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5571F95DC8F007083CA /* Assets.xcassets */; };
 		2AF920DA1F7F3A8300A5160F /* CZUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; };
 		2AF920DB1F7F3A8300A5160F /* CZUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C3BBE25C1F7F16E1002576BF /* ReactiveListViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BBE2571F7F16D0002576BF /* ReactiveListViewKit.framework */; };
@@ -117,6 +118,7 @@
 		2ADA7C991F95D82500B8679C /* FeedCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedCellView.xib; path = "UI Layer/FeedList/FeedCellView.xib"; sourceTree = "<group>"; };
 		2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCellViewModel.swift; path = "UI Layer/FeedList/FeedCellViewModel.swift"; sourceTree = "<group>"; };
 		2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedListEvent.swift; path = FLUX/FeedListEvent.swift; sourceTree = "<group>"; };
+		2ADCB5571F95DC8F007083CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		2AF920D91F7F3A8300A5160F /* CZUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CZUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA07FDAF186FE8BE55F9FA06 /* Pods-ReactiveListViewKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF66D1BFAFC30D1DD31A02B9 /* Pods-ReactiveListViewKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,19 +176,13 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		2ADA7C821F95D79300B8679C /* Hot Users */ = {
+		2ADA7C821F95D79300B8679C /* HotUsersCell */ = {
 			isa = PBXGroup;
 			children = (
-				2ADA7C831F95D79E00B8679C /* HotUserCellCardView.swift */,
-				2ADA7C841F95D79E00B8679C /* HotUserCellCardView.xib */,
-				2ADA7C851F95D79E00B8679C /* HotUserCellView.swift */,
-				2ADA7C861F95D79E00B8679C /* HotUserCellView.xib */,
-				2ADA7C871F95D79E00B8679C /* HotUserCellViewModel.swift */,
-				2ADA7C881F95D79E00B8679C /* HotUsersCellViewController.swift */,
-				2ADA7C891F95D79E00B8679C /* HotUsersCellViewController.xib */,
-				2ADA7C8A1F95D79E00B8679C /* HotUsersCellViewModel.swift */,
+				2ADA7CA61F95DAFF00B8679C /* CellView */,
+				2ADA7CA71F95DB0800B8679C /* CellViewController */,
 			);
-			name = "Hot Users";
+			name = HotUsersCell;
 			sourceTree = "<group>";
 		};
 		2ADA7C931F95D7C900B8679C /* FLUX */ = {
@@ -197,6 +193,46 @@
 				2ADA7C951F95D7E200B8679C /* UserStoryEvent.swift */,
 			);
 			name = FLUX;
+			sourceTree = "<group>";
+		};
+		2ADA7CA61F95DAFF00B8679C /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				2ADA7C851F95D79E00B8679C /* HotUserCellView.swift */,
+				2ADA7C861F95D79E00B8679C /* HotUserCellView.xib */,
+				2ADA7C871F95D79E00B8679C /* HotUserCellViewModel.swift */,
+				2ADA7C831F95D79E00B8679C /* HotUserCellCardView.swift */,
+				2ADA7C841F95D79E00B8679C /* HotUserCellCardView.xib */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+		2ADA7CA71F95DB0800B8679C /* CellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2ADA7C881F95D79E00B8679C /* HotUsersCellViewController.swift */,
+				2ADA7C891F95D79E00B8679C /* HotUsersCellViewController.xib */,
+				2ADA7C8A1F95D79E00B8679C /* HotUsersCellViewModel.swift */,
+			);
+			name = CellViewController;
+			sourceTree = "<group>";
+		};
+		2ADCB54D1F95DB90007083CA /* FeedCell */ = {
+			isa = PBXGroup;
+			children = (
+				2ADA7C981F95D82500B8679C /* FeedCellView.swift */,
+				2ADA7C991F95D82500B8679C /* FeedCellView.xib */,
+				2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */,
+			);
+			name = FeedCell;
+			sourceTree = "<group>";
+		};
+		2ADCB5561F95DC85007083CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB5571F95DC8F007083CA /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		549D3ECA39F4761C43AEBD3E /* Pods */ = {
@@ -262,6 +298,7 @@
 				2ADA7C6A1F95D58500B8679C /* UI Layer */,
 				2ADA7C681F95D58000B8679C /* Data Layer */,
 				2ADA7C7F1F95D6CC00B8679C /* Utils */,
+				2ADCB5561F95DC85007083CA /* Resources */,
 				C3BBE2611F7F178C002576BF /* Constants.swift */,
 				C3E8440B1F7F1615001ED65A /* AppDelegate.swift */,
 				C3E8440F1F7F1615001ED65A /* Main.storyboard */,
@@ -273,13 +310,11 @@
 		C3E844211F7F1641001ED65A /* FeedList */ = {
 			isa = PBXGroup;
 			children = (
-				2ADA7C821F95D79300B8679C /* Hot Users */,
+				2ADCB54D1F95DB90007083CA /* FeedCell */,
+				2ADA7C821F95D79300B8679C /* HotUsersCell */,
 				2ADA7C6B1F95D5CD00B8679C /* FeedListEventHandler.swift */,
 				2ADA7C6C1F95D5CD00B8679C /* FeedListViewController.swift */,
 				2ADA7C6D1F95D5CD00B8679C /* FeedListViewModel.swift */,
-				2ADA7C981F95D82500B8679C /* FeedCellView.swift */,
-				2ADA7C991F95D82500B8679C /* FeedCellView.xib */,
-				2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */,
 			);
 			name = FeedList;
 			sourceTree = "<group>";
@@ -379,6 +414,7 @@
 				C3E844131F7F1615001ED65A /* Assets.xcassets in Resources */,
 				C3E844111F7F1615001ED65A /* Main.storyboard in Resources */,
 				2ADA7C8C1F95D79E00B8679C /* HotUserCellCardView.xib in Resources */,
+				2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */,
 				2ADA7C9C1F95D82500B8679C /* FeedCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
