@@ -48,8 +48,8 @@ class HotUserCellCardView: CZNibLoadableView, CZFeedCellViewSizeCalculatable {
             portaitView?.sd_setImage(with: portraitUrl)
             portaitView?.roundToCircleWithFrame()
         }
-        nameLabel?.text = viewModel.userName
         detailsLabel?.text = viewModel.fullName
+        nameLabel?.text = ""
 
         followButton?.roundCorner(cornerRadius: 2)
         closeButton?.roundCorner(cornerRadius: 2)
