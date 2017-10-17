@@ -34,15 +34,16 @@
 		2ADA7C9D1F95D82500B8679C /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */; };
 		2ADA7C9F1F95D87100B8679C /* FeedListEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */; };
 		2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5571F95DC8F007083CA /* Assets.xcassets */; };
+		2ADCB55A1F95DCED007083CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB5591F95DCED007083CA /* AppDelegate.swift */; };
+		2ADCB55C1F95DCF3007083CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB55B1F95DCF3007083CA /* Constants.swift */; };
+		2ADCB55F1F95DD02007083CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB55D1F95DD02007083CA /* Main.storyboard */; };
+		2ADCB5621F95DD0D007083CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5601F95DD0D007083CA /* LaunchScreen.storyboard */; };
+		2ADCB5641F95DD16007083CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5631F95DD16007083CA /* Info.plist */; };
+		2ADCB5661F95DD45007083CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5651F95DD45007083CA /* Assets.xcassets */; };
 		2AF920DA1F7F3A8300A5160F /* CZUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; };
 		2AF920DB1F7F3A8300A5160F /* CZUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C3BBE25C1F7F16E1002576BF /* ReactiveListViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BBE2571F7F16D0002576BF /* ReactiveListViewKit.framework */; };
 		C3BBE25D1F7F16E1002576BF /* ReactiveListViewKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3BBE2571F7F16D0002576BF /* ReactiveListViewKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C3BBE2621F7F178C002576BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BBE2611F7F178C002576BF /* Constants.swift */; };
-		C3E8440C1F7F1615001ED65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8440B1F7F1615001ED65A /* AppDelegate.swift */; };
-		C3E844111F7F1615001ED65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8440F1F7F1615001ED65A /* Main.storyboard */; };
-		C3E844131F7F1615001ED65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E844121F7F1615001ED65A /* Assets.xcassets */; };
-		C3E844161F7F1615001ED65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E844141F7F1615001ED65A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,17 +120,17 @@
 		2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCellViewModel.swift; path = "UI Layer/FeedList/FeedCellViewModel.swift"; sourceTree = "<group>"; };
 		2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedListEvent.swift; path = FLUX/FeedListEvent.swift; sourceTree = "<group>"; };
 		2ADCB5571F95DC8F007083CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		2ADCB5591F95DCED007083CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supported Files/AppDelegate.swift"; sourceTree = "<group>"; };
+		2ADCB55B1F95DCF3007083CA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utils/Constants.swift; sourceTree = "<group>"; };
+		2ADCB55E1F95DD02007083CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Supported Files/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		2ADCB5611F95DD0D007083CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Supported Files/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		2ADCB5631F95DD16007083CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supported Files/Info.plist"; sourceTree = "<group>"; };
+		2ADCB5651F95DD45007083CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Supported Files/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		2AF920D91F7F3A8300A5160F /* CZUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CZUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA07FDAF186FE8BE55F9FA06 /* Pods-ReactiveListViewKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF66D1BFAFC30D1DD31A02B9 /* Pods-ReactiveListViewKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C3BBE2501F7F16D0002576BF /* ReactiveListViewKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveListViewKit.xcodeproj; path = ../ReactiveListViewKit/ReactiveListViewKit.xcodeproj; sourceTree = "<group>"; };
-		C3BBE2611F7F178C002576BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C3E844081F7F1615001ED65A /* ReactiveListViewKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveListViewKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3E8440B1F7F1615001ED65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3E844101F7F1615001ED65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3E844121F7F1615001ED65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3E844151F7F1615001ED65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C3E844171F7F1615001ED65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 		2ADA7C7F1F95D6CC00B8679C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2ADCB55B1F95DCF3007083CA /* Constants.swift */,
 				2ADA7C801F95D6DF00B8679C /* CZModel.swift */,
 			);
 			name = Utils;
@@ -265,9 +267,11 @@
 		C3BBE2631F7F179F002576BF /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3E844121F7F1615001ED65A /* Assets.xcassets */,
-				C3E844141F7F1615001ED65A /* LaunchScreen.storyboard */,
-				C3E844171F7F1615001ED65A /* Info.plist */,
+				2ADCB5591F95DCED007083CA /* AppDelegate.swift */,
+				2ADCB5631F95DD16007083CA /* Info.plist */,
+				2ADCB55D1F95DD02007083CA /* Main.storyboard */,
+				2ADCB5601F95DD0D007083CA /* LaunchScreen.storyboard */,
+				2ADCB5651F95DD45007083CA /* Assets.xcassets */,
 			);
 			name = "Supported Files";
 			sourceTree = "<group>";
@@ -299,9 +303,6 @@
 				2ADA7C681F95D58000B8679C /* Data Layer */,
 				2ADA7C7F1F95D6CC00B8679C /* Utils */,
 				2ADCB5561F95DC85007083CA /* Resources */,
-				C3BBE2611F7F178C002576BF /* Constants.swift */,
-				C3E8440B1F7F1615001ED65A /* AppDelegate.swift */,
-				C3E8440F1F7F1615001ED65A /* Main.storyboard */,
 				C3BBE2631F7F179F002576BF /* Supported Files */,
 			);
 			path = ReactiveListViewKitDemo;
@@ -408,13 +409,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADCB5641F95DD16007083CA /* Info.plist in Resources */,
 				2ADA7C8E1F95D79E00B8679C /* HotUserCellView.xib in Resources */,
 				2ADA7C911F95D79E00B8679C /* HotUsersCellViewController.xib in Resources */,
-				C3E844161F7F1615001ED65A /* LaunchScreen.storyboard in Resources */,
-				C3E844131F7F1615001ED65A /* Assets.xcassets in Resources */,
-				C3E844111F7F1615001ED65A /* Main.storyboard in Resources */,
+				2ADCB55F1F95DD02007083CA /* Main.storyboard in Resources */,
 				2ADA7C8C1F95D79E00B8679C /* HotUserCellCardView.xib in Resources */,
+				2ADCB5621F95DD0D007083CA /* LaunchScreen.storyboard in Resources */,
 				2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */,
+				2ADCB5661F95DD45007083CA /* Assets.xcassets in Resources */,
 				2ADA7C9C1F95D82500B8679C /* FeedCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,8 +486,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADCB55C1F95DCF3007083CA /* Constants.swift in Sources */,
+				2ADCB55A1F95DCED007083CA /* AppDelegate.swift in Sources */,
 				2ADA7C9B1F95D82500B8679C /* FeedCellView.swift in Sources */,
-				C3E8440C1F7F1615001ED65A /* AppDelegate.swift in Sources */,
 				2ADA7C9D1F95D82500B8679C /* FeedCellViewModel.swift in Sources */,
 				2ADA7C7C1F95D5FB00B8679C /* ImageInfo.swift in Sources */,
 				2ADA7C811F95D6DF00B8679C /* CZModel.swift in Sources */,
@@ -496,7 +499,6 @@
 				2ADA7C6E1F95D5CD00B8679C /* FeedListEventHandler.swift in Sources */,
 				2ADA7C7E1F95D5FB00B8679C /* UserManager.swift in Sources */,
 				2ADA7C961F95D7E200B8679C /* SuggestedUserEvent.swift in Sources */,
-				C3BBE2621F7F178C002576BF /* Constants.swift in Sources */,
 				2ADA7C791F95D5FB00B8679C /* CZMocker.swift in Sources */,
 				2ADA7C6F1F95D5CD00B8679C /* FeedListViewController.swift in Sources */,
 				2ADA7C9F1F95D87100B8679C /* FeedListEvent.swift in Sources */,
@@ -526,18 +528,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3E8440F1F7F1615001ED65A /* Main.storyboard */ = {
+		2ADCB55D1F95DD02007083CA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C3E844101F7F1615001ED65A /* Base */,
+				2ADCB55E1F95DD02007083CA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C3E844141F7F1615001ED65A /* LaunchScreen.storyboard */ = {
+		2ADCB5601F95DD0D007083CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C3E844151F7F1615001ED65A /* Base */,
+				2ADCB5611F95DD0D007083CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -647,7 +649,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55RDUQ8X48;
-				INFOPLIST_FILE = ReactiveListViewKitDemo/Info.plist;
+				INFOPLIST_FILE = "ReactiveListViewKitDemo/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tony.ReactiveListViewKitDemo;
@@ -663,7 +665,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55RDUQ8X48;
-				INFOPLIST_FILE = ReactiveListViewKitDemo/Info.plist;
+				INFOPLIST_FILE = "ReactiveListViewKitDemo/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tony.ReactiveListViewKitDemo;
