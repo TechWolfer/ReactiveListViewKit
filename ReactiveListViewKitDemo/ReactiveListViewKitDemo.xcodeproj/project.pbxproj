@@ -291,12 +291,12 @@
 		C3BBE2631F7F179F002576BF /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
-				2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */,
 				2ADCB5561F95DC85007083CA /* Resources */,
 				2ADCB5591F95DCED007083CA /* AppDelegate.swift */,
 				2ADCB5631F95DD16007083CA /* Info.plist */,
 				2ADCB55D1F95DD02007083CA /* Main.storyboard */,
 				2ADCB5601F95DD0D007083CA /* LaunchScreen.storyboard */,
+				2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */,
 				2ADCB5651F95DD45007083CA /* Assets.xcassets */,
 			);
 			name = "Supported Files";
