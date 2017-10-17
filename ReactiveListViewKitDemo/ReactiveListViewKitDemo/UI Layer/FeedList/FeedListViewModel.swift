@@ -9,10 +9,6 @@
 import UIKit
 import ReactiveListViewKit
 
-// Models
-//typealias Feed = String
-//typealias User = String
-
 // State
 typealias FeedListState = FeedListViewModel
 
