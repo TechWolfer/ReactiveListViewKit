@@ -8,11 +8,24 @@
 
 import UIKit
 import CZUtils
+import CZNetworking
 import ReactiveListViewKit
 
 class CZMocker: NSObject {
     static let shared = CZMocker()
 
+    var feeds: [Feed] {
+        do {
+            let jsonString = try String(contentsOfFile: Bundle.main.path(forResource: "feeds", ofType: "json")!)
+            let jsonData = jsonString.data(using: .utf8)
+            guard let feedsArray = CZHTTPJsonSerializer.deserializedObject(with: jsonData) as? [CZDictionary] else {fatalError()}
+            return feedsArray.flatMap{ Feed(dictionary: $0) }
+        } catch {
+            print("Failed to deserialize feeds with JSON. Error: \(error.localizedDescription)")
+        }
+        return []
+    }
+    
     var hotUsers: [User] {
         let portraitUrls = [
             "https://scontent-sjc2-1.cdninstagram.com/t51.2885-19/s150x150/15876365_735808813238573_5209783394333884416_n.jpg",

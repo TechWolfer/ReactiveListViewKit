@@ -33,13 +33,13 @@
 		2ADA7C9C1F95D82500B8679C /* FeedCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADA7C991F95D82500B8679C /* FeedCellView.xib */; };
 		2ADA7C9D1F95D82500B8679C /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */; };
 		2ADA7C9F1F95D87100B8679C /* FeedListEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */; };
-		2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5571F95DC8F007083CA /* Assets.xcassets */; };
 		2ADCB55A1F95DCED007083CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB5591F95DCED007083CA /* AppDelegate.swift */; };
 		2ADCB55C1F95DCF3007083CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB55B1F95DCF3007083CA /* Constants.swift */; };
 		2ADCB55F1F95DD02007083CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB55D1F95DD02007083CA /* Main.storyboard */; };
 		2ADCB5621F95DD0D007083CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5601F95DD0D007083CA /* LaunchScreen.storyboard */; };
 		2ADCB5641F95DD16007083CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5631F95DD16007083CA /* Info.plist */; };
 		2ADCB5661F95DD45007083CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5651F95DD45007083CA /* Assets.xcassets */; };
+		2ADCB5681F95E09A007083CA /* feeds.json in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB5671F95E09A007083CA /* feeds.json */; };
 		2AF920DA1F7F3A8300A5160F /* CZUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; };
 		2AF920DB1F7F3A8300A5160F /* CZUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF920D91F7F3A8300A5160F /* CZUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C3BBE25C1F7F16E1002576BF /* ReactiveListViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BBE2571F7F16D0002576BF /* ReactiveListViewKit.framework */; };
@@ -47,6 +47,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2ADCB5A01F95E402007083CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044E02481F74349B00849AA2;
+			remoteInfo = CZNetworking;
+		};
+		2ADCB5A21F95E402007083CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044E02511F74349B00849AA2;
+			remoteInfo = CZNetworkingTests;
+		};
 		C3BBE2561F7F16D0002576BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3BBE2501F7F16D0002576BF /* ReactiveListViewKit.xcodeproj */;
@@ -119,13 +133,14 @@
 		2ADA7C991F95D82500B8679C /* FeedCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedCellView.xib; path = "UI Layer/FeedList/FeedCellView.xib"; sourceTree = "<group>"; };
 		2ADA7C9A1F95D82500B8679C /* FeedCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCellViewModel.swift; path = "UI Layer/FeedList/FeedCellViewModel.swift"; sourceTree = "<group>"; };
 		2ADA7C9E1F95D87100B8679C /* FeedListEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedListEvent.swift; path = FLUX/FeedListEvent.swift; sourceTree = "<group>"; };
-		2ADCB5571F95DC8F007083CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		2ADCB5591F95DCED007083CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supported Files/AppDelegate.swift"; sourceTree = "<group>"; };
 		2ADCB55B1F95DCF3007083CA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utils/Constants.swift; sourceTree = "<group>"; };
 		2ADCB55E1F95DD02007083CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Supported Files/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		2ADCB5611F95DD0D007083CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Supported Files/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		2ADCB5631F95DD16007083CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supported Files/Info.plist"; sourceTree = "<group>"; };
 		2ADCB5651F95DD45007083CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Supported Files/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		2ADCB5671F95E09A007083CA /* feeds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = feeds.json; path = "Supported Files/Resources/feeds.json"; sourceTree = "<group>"; };
+		2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CZNetworking.xcodeproj; path = Utils/CZNetworking/CZNetworking.xcodeproj; sourceTree = "<group>"; };
 		2AF920D91F7F3A8300A5160F /* CZUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CZUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA07FDAF186FE8BE55F9FA06 /* Pods-ReactiveListViewKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF66D1BFAFC30D1DD31A02B9 /* Pods-ReactiveListViewKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveListViewKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveListViewKitDemo/Pods-ReactiveListViewKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,13 +165,13 @@
 		2ADA7C681F95D58000B8679C /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
-				2ADA7C711F95D5FB00B8679C /* Comment.swift */,
-				2ADA7C721F95D5FB00B8679C /* CZMocker.swift */,
-				2ADA7C731F95D5FB00B8679C /* DataManager.swift */,
 				2ADA7C741F95D5FB00B8679C /* Feed.swift */,
-				2ADA7C751F95D5FB00B8679C /* ImageInfo.swift */,
 				2ADA7C761F95D5FB00B8679C /* User.swift */,
+				2ADA7C751F95D5FB00B8679C /* ImageInfo.swift */,
+				2ADA7C711F95D5FB00B8679C /* Comment.swift */,
+				2ADA7C731F95D5FB00B8679C /* DataManager.swift */,
 				2ADA7C771F95D5FB00B8679C /* UserManager.swift */,
+				2ADA7C721F95D5FB00B8679C /* CZMocker.swift */,
 			);
 			name = "Data Layer";
 			sourceTree = "<group>";
@@ -232,9 +247,18 @@
 		2ADCB5561F95DC85007083CA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2ADCB5571F95DC8F007083CA /* Assets.xcassets */,
+				2ADCB5671F95E09A007083CA /* feeds.json */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2ADCB59C1F95E402007083CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB5A11F95E402007083CA /* CZNetworking.framework */,
+				2ADCB5A31F95E402007083CA /* CZNetworkingTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		549D3ECA39F4761C43AEBD3E /* Pods */ = {
@@ -267,6 +291,8 @@
 		C3BBE2631F7F179F002576BF /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
+				2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */,
+				2ADCB5561F95DC85007083CA /* Resources */,
 				2ADCB5591F95DCED007083CA /* AppDelegate.swift */,
 				2ADCB5631F95DD16007083CA /* Info.plist */,
 				2ADCB55D1F95DD02007083CA /* Main.storyboard */,
@@ -302,7 +328,6 @@
 				2ADA7C6A1F95D58500B8679C /* UI Layer */,
 				2ADA7C681F95D58000B8679C /* Data Layer */,
 				2ADA7C7F1F95D6CC00B8679C /* Utils */,
-				2ADCB5561F95DC85007083CA /* Resources */,
 				C3BBE2631F7F179F002576BF /* Supported Files */,
 			);
 			path = ReactiveListViewKitDemo;
@@ -376,6 +401,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 2ADCB59C1F95E402007083CA /* Products */;
+					ProjectRef = 2ADCB58A1F95E3E5007083CA /* CZNetworking.xcodeproj */;
+				},
+				{
 					ProductGroup = C3BBE2511F7F16D0002576BF /* Products */;
 					ProjectRef = C3BBE2501F7F16D0002576BF /* ReactiveListViewKit.xcodeproj */;
 				},
@@ -388,6 +417,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		2ADCB5A11F95E402007083CA /* CZNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CZNetworking.framework;
+			remoteRef = 2ADCB5A01F95E402007083CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2ADCB5A31F95E402007083CA /* CZNetworkingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CZNetworkingTests.xctest;
+			remoteRef = 2ADCB5A21F95E402007083CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		C3BBE2571F7F16D0002576BF /* ReactiveListViewKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -415,9 +458,9 @@
 				2ADCB55F1F95DD02007083CA /* Main.storyboard in Resources */,
 				2ADA7C8C1F95D79E00B8679C /* HotUserCellCardView.xib in Resources */,
 				2ADCB5621F95DD0D007083CA /* LaunchScreen.storyboard in Resources */,
-				2ADCB5581F95DC8F007083CA /* Assets.xcassets in Resources */,
 				2ADCB5661F95DD45007083CA /* Assets.xcassets in Resources */,
 				2ADA7C9C1F95D82500B8679C /* FeedCellView.xib in Resources */,
+				2ADCB5681F95E09A007083CA /* feeds.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

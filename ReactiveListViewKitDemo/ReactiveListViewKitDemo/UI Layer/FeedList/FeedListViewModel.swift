@@ -13,7 +13,9 @@ import ReactiveListViewKit
 typealias FeedListState = FeedListViewModel
 
 class FeedListViewModel: NSObject, CopyableState {
-    fileprivate(set) lazy var feeds: [Feed] = []
+    fileprivate(set) lazy var feeds: [Feed] = {
+        return CZMocker.shared.feeds
+    }()
     fileprivate(set) var page: Int = 0
     fileprivate(set) var isLoadingFeeds: Bool = false
     fileprivate(set) var lastMinFeedId: String = "-1"
