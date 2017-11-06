@@ -40,7 +40,7 @@ class FeedListViewModel: NSObject, CopyableState {
             // 1. HotUsers section
 //            let HotUsersFeedModels = self.storyUsers.flatMap { CZFeedModel(viewClass: HotUserCellView.self,
 //                                                                           viewModel: HotUserCellViewModel($0)) }
-//            
+//
 //            let hotUsersSectionModel = CZSectionModel(isHorizontal: true,
 //                                                      heightForHorizontal: HotUserSection.heightForHorizontal,
 //                                                      feedModels: HotUsersFeedModels,
@@ -57,11 +57,13 @@ class FeedListViewModel: NSObject, CopyableState {
 //            sectionModels.append(hotUsersSectionModel)
             
             // 2. Feeds section
+            #if false
             var feedModels = self.suggestedUsers.flatMap { CZFeedModel(viewClass: HotUserCellCardView.self,
                                                          viewModel: HotUserCellViewModel($0)) }
-            
-//            var feedModels = feeds.flatMap { CZFeedModel(viewClass: FeedCellView.self,
-//                                                         viewModel: FeedCellViewModel($0)) }
+            #else
+            var feedModels = feeds.flatMap { CZFeedModel(viewClass: FeedCellView.self,
+                                                         viewModel: FeedCellViewModel($0)) }
+            #endif
             
             // 3. SuggestedUsers - CellViewController
 //            if feedModels.count > 0 {
