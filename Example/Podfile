@@ -6,6 +6,7 @@ target 'ReactiveListViewKitDemo' do
   use_frameworks!
 
   # Pods for ReactiveListViewKitDemo
+  # pod 'ReactiveListViewKit', :path => '../ReactiveListViewKit'
   pod 'SDWebImage', '~> 4.0'
   pod 'EasyMapping', '~> 0.20'
   pod ‘Reveal-SDK’

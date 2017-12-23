@@ -24,11 +24,11 @@
 		044E03661F74464200849AA2 /* CZReactiveFeedListFacadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E03561F74464200849AA2 /* CZReactiveFeedListFacadeView.swift */; };
 		044E03671F74464200849AA2 /* CZSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E03571F74464200849AA2 /* CZSectionModel.swift */; };
 		2A0647271F7F61CE00354083 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0647261F7F61CE00354083 /* Reactor.swift */; };
+		2A101AFE1FEF0305001AC915 /* ReactiveListViewKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2A101AFD1FEF0305001AC915 /* ReactiveListViewKit.podspec */; };
 		2A14FA3B1FCF4CB900914C8E /* CZFeedDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14FA3A1FCF4CB900914C8E /* CZFeedDetailsViewModel.swift */; };
 		2A14FA3E1FCF50B800914C8E /* CZFeedDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14FA3D1FCF50B800914C8E /* CZFeedDetailsModel.swift */; };
 		2A1607501F7DAF0500FC3E9B /* ReactiveListViewKitConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16074F1F7DAF0500FC3E9B /* ReactiveListViewKitConstants.swift */; };
 		2A465C761F7F01B800406343 /* CZListDiffableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A465C751F7F01B800406343 /* CZListDiffableHelper.swift */; };
-		2A4D96361FEEFBFC00B46E8E /* ReactiveListViewKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2A4D96341FEEFBFC00B46E8E /* ReactiveListViewKit.podspec */; };
 		2AB3DB961F7EC3D8009A5EF9 /* CZDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3DB8E1F7EC3D8009A5EF9 /* CZDividerView.swift */; };
 		2AB3DB971F7EC3D8009A5EF9 /* CZFeedListSupplementaryLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3DB8F1F7EC3D8009A5EF9 /* CZFeedListSupplementaryLineView.swift */; };
 		2AB3DB981F7EC3D8009A5EF9 /* CZFeedListSupplementaryTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3DB901F7EC3D8009A5EF9 /* CZFeedListSupplementaryTextView.swift */; };
@@ -96,11 +96,11 @@
 		044E03561F74464200849AA2 /* CZReactiveFeedListFacadeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZReactiveFeedListFacadeView.swift; sourceTree = "<group>"; };
 		044E03571F74464200849AA2 /* CZSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZSectionModel.swift; sourceTree = "<group>"; };
 		2A0647261F7F61CE00354083 /* Reactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
+		2A101AFD1FEF0305001AC915 /* ReactiveListViewKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReactiveListViewKit.podspec; sourceTree = SOURCE_ROOT; };
 		2A14FA3A1FCF4CB900914C8E /* CZFeedDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZFeedDetailsViewModel.swift; sourceTree = "<group>"; };
 		2A14FA3D1FCF50B800914C8E /* CZFeedDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZFeedDetailsModel.swift; sourceTree = "<group>"; };
 		2A16074F1F7DAF0500FC3E9B /* ReactiveListViewKitConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveListViewKitConstants.swift; path = Utils/ReactiveListViewKitConstants.swift; sourceTree = "<group>"; };
 		2A465C751F7F01B800406343 /* CZListDiffableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CZListDiffableHelper.swift; path = Utils/CZListDiffableHelper.swift; sourceTree = "<group>"; };
-		2A4D96341FEEFBFC00B46E8E /* ReactiveListViewKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReactiveListViewKit.podspec; path = ../../ReactiveListViewKit.podspec; sourceTree = "<group>"; };
 		2AB3DB8E1F7EC3D8009A5EF9 /* CZDividerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CZDividerView.swift; path = TemplateViews/CZDividerView.swift; sourceTree = "<group>"; };
 		2AB3DB8F1F7EC3D8009A5EF9 /* CZFeedListSupplementaryLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CZFeedListSupplementaryLineView.swift; path = TemplateViews/CZFeedListSupplementaryLineView.swift; sourceTree = "<group>"; };
 		2AB3DB901F7EC3D8009A5EF9 /* CZFeedListSupplementaryTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CZFeedListSupplementaryTextView.swift; path = TemplateViews/CZFeedListSupplementaryTextView.swift; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 			children = (
 				2AD7D7A51FEEFF8D003C3A49 /* Info.plist */,
 				2AD7D7A41FEEFF8D003C3A49 /* ReactiveListViewKit.h */,
-				2A4D96341FEEFBFC00B46E8E /* ReactiveListViewKit.podspec */,
+				2A101AFD1FEF0305001AC915 /* ReactiveListViewKit.podspec */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -368,8 +368,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4D96361FEEFBFC00B46E8E /* ReactiveListViewKit.podspec in Resources */,
 				2AD7D7A71FEEFF8D003C3A49 /* Info.plist in Resources */,
+				2A101AFE1FEF0305001AC915 /* ReactiveListViewKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
