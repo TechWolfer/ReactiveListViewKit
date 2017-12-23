@@ -6,7 +6,6 @@ s.summary          = 'MVVM + FLUX Reactive Facade ViewKit, eliminates Massive Vi
 s.description      = <<-DESC
 - MVVM + FLUX reactive facade ViewKit for feed based app development
 - Eliminates Massive View Controller in unidirectional Event/State flow manner
-
 DESC
 
 s.homepage         = 'https://github.com/geekaurora/ReactiveListViewKit'
