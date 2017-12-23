@@ -60,7 +60,7 @@
 			remoteGlobalIDString = 044E03351F74458B00849AA2;
 			remoteInfo = ReactiveListViewKitTests;
 		};
-		2A101B0D1FEF034F001AC915 /* PBXContainerItemProxy */ = {
+		2AB659901FEF093A001A8835 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2A101B001FEF033E001AC915 /* ReactiveListViewKit.xcodeproj */;
 			proxyType = 1;
@@ -367,7 +367,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2A101B0E1FEF034F001AC915 /* PBXTargetDependency */,
+				2AB659911FEF093A001A8835 /* PBXTargetDependency */,
 				2AD5C7C01F95EF220086E58D /* PBXTargetDependency */,
 				2ACDACBE1F95F1D500CD11CB /* PBXTargetDependency */,
 			);
@@ -560,10 +560,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A101B0E1FEF034F001AC915 /* PBXTargetDependency */ = {
+		2AB659911FEF093A001A8835 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactiveListViewKit;
-			targetProxy = 2A101B0D1FEF034F001AC915 /* PBXContainerItemProxy */;
+			targetProxy = 2AB659901FEF093A001A8835 /* PBXContainerItemProxy */;
 		};
 		2ACDACBE1F95F1D500CD11CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
