@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ReactiveListViewKit'
-s.version          = '1.2.1'
+s.version          = '1.2.4'
 s.summary          = 'MVVM + FLUX Reactive Facade ViewKit, eliminates Massive View Controller in unidirectional event/state flow manner.'
 
 s.description      = <<-DESC
@@ -9,7 +9,7 @@ s.description      = <<-DESC
 DESC
 
 s.homepage         = 'https://github.com/geekaurora/ReactiveListViewKit'
-#s.screenshots     = 'https://github.com/geekaurora/ReactiveListViewKit/blob/master/Docs/CZInstagram.gif'
+#s.screenshots     = ''
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'geekaurora' => 'showt2me@gmail.com' }
 s.source           = { :git => 'https://github.com/geekaurora/ReactiveListViewKit.git', :tag => s.version.to_s }
